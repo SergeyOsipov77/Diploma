@@ -1,5 +1,6 @@
 import superagent from "superagent";
-import { Base_API_URL } from "../consts/consts";
+import { Base_API_URL } from "../src/consts";
+
 
 describe("GET request", () => {
   it("Getting id, title, body", async () => {

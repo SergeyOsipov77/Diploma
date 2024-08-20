@@ -1,5 +1,6 @@
 import superagent from "superagent";
-import { Base_API_URL } from "../consts/consts";
+import { Base_API_URL } from "../src/consts";
+
 
 describe("PATCH request", () => {
 
